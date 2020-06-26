@@ -1,0 +1,29 @@
+<div class="col-md-6">
+
+<h2 class ="text-center">Add employee</h2>
+
+<form>
+    
+    <div class="form-group">
+        <label for="name">name :</label>
+        <input type="name"[(ngModel)]="user.name" placeholder="name" name="name" class="form-control" id="name">
+    </div>
+    <div class="form-group">
+        <label for="email">email :</label>
+        <input type="email"[(ngModel)]="user.email" placeholder="email" name="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+        <label for="name">password :</label>
+        <input type="password"[(ngModel)]="user.password" placeholder="password" name="password" class="form-control" id="password">
+    </div>
+    <div class="form-group">
+        <label for="name">nfcTagID :</label>
+        <input type="nfcTagID"[(ngModel)]="user.nfcTagID" placeholder="nfcTagID" name="nfcTagID" class="form-control" id="nfcTagID">
+    </div>
+    <div class="form-group">
+        <label for="name">salary :</label>
+        <input type="salary"[(ngModel)]="user.salary" placeholder="salary" name="salary" class="form-control" id="salary">
+    </div>
+    <button class="btn btn-success" (click)="createEmployee()">Create</button>
+</form>
+</div>

@@ -1,0 +1,26 @@
+<div class="col-md-6">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>name</th>
+          <th>nfcTagID</th>
+         <!-- <th>day</th> -->
+          <th>entryTime</th>
+          <th>leaveTime</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+            <tr *ngFor="let attendance of attendances">
+                
+                <td>{{attendance.name}}</td>
+                <td>{{attendance.nfcTagID}}</td>
+                <!--<td>{{attendance.day}}</td> -->
+                <td>{{attendance.entryTime}}</td>
+                <td>{{attendance.leaveTime}}</td>
+                
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    

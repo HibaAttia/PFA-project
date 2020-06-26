@@ -1,0 +1,25 @@
+
+ <div class="wrapper fadeInDown">
+    <div id="formContent">
+
+        <div class="fadeIn first">
+            <p  class="login" >Login to the attendance system</p>
+          </div>
+    
+      <form>
+        <input type="text" id="login" class="fadeIn second" name="username" [(ngModel)]="username" placeholder="login">
+        <input type="text" id="password" class="fadeIn third" name="password" [(ngModel)]="password" placeholder="password">
+       <br/>           
+       <br/>
+       <br/>
+
+        <button (click)=checkLogin() class="btn btn-success">
+            Login
+          </button>      
+        </form>
+  
+      <!-- Remind Passowrd -->
+      <div>
+        
+      </div>
+    
